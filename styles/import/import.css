@@ -47,7 +47,6 @@ main {
 
 .container-card .wrapper-card {
   width: 300px;
-  margin: 1rem auto;
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: (1fr)[1];
