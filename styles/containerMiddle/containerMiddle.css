@@ -1,0 +1,172 @@
+.container-middle {
+  padding: 0 1.2rem 1rem 1.2rem;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[1];
+      grid-template-columns: repeat(1, 1fr);
+  gap: 1rem 0;
+  position: relative;
+}
+
+.container-middle .title h1 {
+  font-size: 1.2em;
+  color: var(--VeryDarkGrayishBlue);
+}
+
+.container-middle .desc {
+  padding: 0 0.4rem 0 0;
+}
+
+.container-middle .desc p {
+  line-height: 1.4rem;
+  color: var(--DesaturatedDarkBlue);
+}
+
+.container-middle .container-bottom {
+  margin: 1rem 0 0 0;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (max-content)[2];
+      grid-template-columns: repeat(2, -webkit-max-content);
+      grid-template-columns: repeat(2, max-content);
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container-middle .container-bottom .left {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 50px 1fr;
+      grid-template-columns: 50px 1fr;
+  gap: 0 1.4rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container-middle .container-bottom .left .picture {
+  width: 100%;
+}
+
+.container-middle .container-bottom .left .picture img {
+  width: 100%;
+  border-radius: 50%;
+}
+
+.container-middle .container-bottom .left .bio {
+  line-height: 1.3rem;
+}
+
+.container-middle .container-bottom .left .bio p.name {
+  font-weight: 700;
+  letter-spacing: 0.02rem;
+}
+
+.container-middle .container-bottom .left .bio p.dob {
+  color: var(--DesaturatedDarkBlue);
+  letter-spacing: 0.02rem;
+}
+
+.container-middle .container-bottom .right {
+  width: 30px;
+  height: 30px;
+  background-color: var(--LightGrayishBlue);
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.container-middle .container-bottom .right .container-ic-share {
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container-middle .container-bottom .right .container-ic-share img {
+  width: 50%;
+  height: 50%;
+}
+
+.container-middle .container-bottom .container-shared.active {
+  display: none;
+}
+
+.container-middle .container-bottom .container-shared .hidden {
+  width: 300px;
+  height: 80px;
+  padding: 1rem 1.2rem;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr max-content;
+      grid-template-columns: 1fr -webkit-max-content;
+      grid-template-columns: 1fr max-content;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  background-color: var(--VeryDarkGrayishBlue);
+}
+
+.container-middle .container-bottom .container-shared .hidden .container-left {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: max-content max-content;
+      grid-template-columns: -webkit-max-content -webkit-max-content;
+      grid-template-columns: max-content max-content;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 0 1.2rem;
+}
+
+.container-middle .container-bottom .container-shared .hidden .container-left .share p {
+  font-size: 1em;
+  letter-spacing: 0.25rem;
+  text-transform: uppercase;
+  color: var(--GrayishBlue);
+}
+
+.container-middle .container-bottom .container-shared .hidden .container-left .social-media .twitter {
+  margin: 0 0.5rem;
+}
+
+.container-middle .container-bottom .container-shared .hidden .container-right {
+  width: 30px;
+  height: 30px;
+  background-color: var(--LightGrayishBlue);
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.container-middle .container-bottom .container-shared .hidden .container-right .container-ic-share {
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container-middle .container-bottom .container-shared .hidden .container-right .container-ic-share img {
+  width: 50%;
+  height: 50%;
+}
+/*# sourceMappingURL=containerMiddle.css.map */

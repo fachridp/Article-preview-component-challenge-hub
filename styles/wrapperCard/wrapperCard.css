@@ -1,0 +1,21 @@
+.container-card {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.container-card .wrapper-card {
+  width: 300px;
+  margin: 1rem auto;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[1];
+      grid-template-columns: repeat(1, 1fr);
+  gap: 2.5rem 0;
+  background-color: var(--White);
+  border-radius: 1rem;
+  overflow: hidden;
+}
+/*# sourceMappingURL=wrapperCard.css.map */

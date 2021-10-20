@@ -1,0 +1,139 @@
+@media only screen and (min-width: 375px) {
+  main .container-card .wrapper-card {
+    width: 350px;
+  }
+  main .container-card .wrapper-card .container-middle {
+    padding: 0 2rem 1rem 2rem;
+  }
+  main .container-card .wrapper-card .container-middle .title h1 {
+    font-size: 1.4em;
+  }
+  main .container-card .wrapper-card .container-middle .desc p {
+    font-size: 1.09em;
+    line-height: 1.4rem;
+  }
+  main .container-card .wrapper-card .container-middle .container-bottom .left .bio {
+    line-height: 1.5rem;
+  }
+  main .container-card .wrapper-card .container-middle .container-bottom .left .bio p.name {
+    font-size: 1.15em;
+  }
+  main .container-card .wrapper-card .container-middle .container-bottom .left .bio p.dob {
+    font-size: 1.2em;
+  }
+  main .container-card .wrapper-card .container-middle .container-bottom .right {
+    width: 35px;
+    height: 35px;
+  }
+  main .container-card .wrapper-card .container-middle .container-bottom .container-shared .hidden {
+    width: 100%;
+    height: 80px;
+    padding: 1rem 2rem;
+    background-color: var(--VeryDarkGrayishBlue);
+  }
+  main .container-card .wrapper-card .container-middle .container-bottom .container-shared .hidden .container-left .share p {
+    font-size: 1.25em;
+    letter-spacing: 0.5rem;
+  }
+  main .container-card .wrapper-card .container-middle .container-bottom .container-shared .hidden .container-left .social-media img {
+    width: 21px;
+  }
+  main .container-card .wrapper-card .container-middle .container-bottom .container-shared .hidden .container-left .social-media img.twitter {
+    margin: 0 1rem;
+  }
+  main .container-card .wrapper-card .container-middle .container-bottom .container-shared .hidden .container-right {
+    width: 35px;
+    height: 35px;
+  }
+}
+
+@media only screen and (min-width: 800px) {
+  main {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  main .container-card {
+    width: 800px;
+    height: 100vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  main .container-card .wrapper-card {
+    width: 750px;
+    position: relative;
+    -ms-grid-columns: 320px 1fr;
+        grid-template-columns: 320px 1fr;
+    overflow: unset;
+  }
+  main .container-card .wrapper-card .container-img-card {
+    width: 100%;
+    height: 100%;
+  }
+  main .container-card .wrapper-card .container-img-card img {
+    width: 100%;
+    height: 100%;
+    border-radius: 1rem;
+  }
+  main .container-card .wrapper-card .container-middle {
+    padding-top: 2rem;
+    position: unset;
+  }
+  main .container-card .wrapper-card .container-middle .title h1 {
+    font-size: 1.6em;
+  }
+  main .container-card .wrapper-card .container-middle .desc p {
+    font-size: 1em;
+  }
+  main .container-card .wrapper-card .container-middle .container-bottom .container-shared .hidden {
+    width: 270px;
+    height: 65px;
+    -ms-grid-columns: (max-content)[1];
+        grid-template-columns: repeat(1, -webkit-max-content);
+        grid-template-columns: repeat(1, max-content);
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    border-radius: 0.7rem;
+    top: 150px;
+    left: 550px;
+    -webkit-box-shadow: 0 8px 10px rgba(0, 0, 0, 0.2);
+            box-shadow: 0 8px 10px rgba(0, 0, 0, 0.2);
+    z-index: 2;
+  }
+  main .container-card .wrapper-card .container-middle .container-bottom .container-shared .hidden .container-right {
+    display: none;
+  }
+  main .container-card .wrapper-card .container-middle .container-bottom .container-shared .arrow-down {
+    width: 0;
+    height: 0;
+    position: absolute;
+    top: 210px;
+    right: 30px;
+    border-left: 18px solid transparent;
+    border-right: 18px solid transparent;
+    border-top: 18px solid var(--VeryDarkGrayishBlue);
+  }
+}
+/*# sourceMappingURL=responsive.css.map */
